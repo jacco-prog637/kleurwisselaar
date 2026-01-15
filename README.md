@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
+    <button type="button" onclick="veranderKleur()">Verander Kleur</button>
+
 <head>
     <meta charset="UTF-8">
     <title>Kleurwisselaar</title>
