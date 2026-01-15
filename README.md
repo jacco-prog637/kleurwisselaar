@@ -27,8 +27,9 @@
      button:hover {
           background-color: #45a049;
      }
-       </head>
     <style>
+       </head>
+
 <body>
 
      <h1>interactive kleurwisselaar</h1>
