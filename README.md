@@ -39,6 +39,8 @@
         var randomKleur = kleuren[Math.floor(Math.random() * kleuren.length)];
         document.body.style.backgroundColor = randomKleur;
         document.body.style.color = 'white';
+        alert("JavaScript werkt!");
+
     }
 </script>
 
