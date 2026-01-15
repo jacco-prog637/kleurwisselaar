@@ -33,21 +33,17 @@
 
      <h1>interactive kleurwisselaar</h1>
 
-    <button onclick="veranderKleur()">Verander Kleur</button>
-
-    <script>
+   
+<script>
     function veranderKleur() {
-        var kleuren = ['red', 'blue', 'green', 'yellow', 'pink', 'purple', 'orange'];
+        var kleuren = ['red', 'blue', 'green', 'yellow'];
         var randomKleur = kleuren[Math.floor(Math.random() * kleuren.length)];
         document.body.style.backgroundColor = randomKleur;
-        document.body.style.color = 'white';
-        alert("JavaScript werkt!");
-
+        function veranderKleur() {
     }
 </script>
 
-
-</body>
+ </body>
 </html>
         
 
